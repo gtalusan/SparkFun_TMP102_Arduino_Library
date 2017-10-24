@@ -1,3 +1,7 @@
+George's modifications
+======================
+Add ::end() member to call Wire.end to nRF5x into ultra low power mode by switching off the I2C bus
+
 SparkFun TMP102 Arduino Library
 ======================
 
