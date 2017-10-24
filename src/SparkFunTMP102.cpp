@@ -39,6 +39,10 @@ void TMP102::begin(void)
   Wire.begin();  // Join I2C bus
 }
 
+void TMP102::end(void)
+{
+  Wire.end();  // Leave I2C bus
+}
 
 void TMP102::openPointerRegister(uint8_t pointerReg)
 { 

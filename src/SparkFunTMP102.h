@@ -31,6 +31,7 @@ class TMP102
 	public:
 		TMP102(byte address);	// Initialize TMP102 sensor at given address
 		void begin(void);  // Join I2C bus
+		void end(void);  // Leave I2C bus
 		float readTempC(void);	// Returns the temperature in degrees C
 		float readTempF(void);	// Converts readTempC result to degrees F
 		void sleep(void);	// Switch sensor to low power mode
